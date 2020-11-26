@@ -10,7 +10,8 @@
     "migrate:production": "heroku run npm run migrate",
     "start": "node src/server.js",
     "predeploy": "npm audit",
-    "deploy": "git push heroku master"
+    "deploy": "git push heroku master",
+    "postdeploy": "npm run migrate:production"
   },
   "keywords": [],
   "author": "",
@@ -22,7 +23,7 @@
     "helmet": "^4.1.1",
     "knex": "^0.21.12",
     "morgan": "^1.10.0",
-    "pg": "^8.5.1", 
+    "pg": "^8.5.1",
     "postgrator-cli": "^3.2.0"
   },
   "devDependencies": {

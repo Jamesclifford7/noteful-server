@@ -1,0 +1,21 @@
+INSERT INTO noteful_notes (title, content, folderid)
+VALUES 
+('Car', 'Need to take car in to fix engine and change oil', '1'), 
+('Bank', 'Go to bank to deposit latest check', '1'), 
+('Friend birthday', 'Get gift and card', '1'),
+('Sketch wireframes', 'Write out concept and draw wireframes for new web application', '2'), 
+('Build client', 'Build basic functionalities for new client application using React.js', '2'), 
+('Add styling', 'Add styling to UI using CSS', '2'), 
+('Make responsive', 'Make UI responsive for mobile, tablet, and desktop', '2'),
+('Build server', 'Create express app for handling client data', '2'), 
+('Build psql database', 'Create postgresql database and seed with data', '2'), 
+('Connect express and psql', 'Create service objects and routers to connect psql data with client', '2'), 
+('Test', 'Create/run tests to make sure everything is working', '2'), 
+('Push client to github', 'Commit and push React client to github', '2'), 
+('Push server to github', 'Commit and push express app to github', '2'), 
+('Deploy', 'Deploy both client and server', '2'), 
+('Surfboard', 'Get new fins and basecoat for shortboard', '3'), 
+('Les Paul', 'take to guitar store to get setup', '3'), 
+('Sell amp', 'list old amp on reverb to sell', '3'), 
+('Records to buy', 'Boards of Canada, Leonard Cohen, Dexter Gordon, Depeche Mode', '3'), 
+('Places to travel', 'Spain, Morocco, Maldives', '3');
